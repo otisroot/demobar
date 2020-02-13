@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #06101B;
+	height: 60px;
+	text-align: center;
+	padding: 10px 0px;
+	position: fixed;
+	width: 100%;
+	top : 0;
+
+}
+header div.menu {
+	background: #EEE8D8;
+	border-radius: 30px;
+	width: 70%;
+	margin:  auto;
+	padding: 10px 0px;
+	height: 40px;
+}
+header ul li {
+	display: inline-block;
+	width: 100px;
+	line-height: 40px;
+}
+header ul li a {
+	text-decoration: none;
+	color : gray;
+}
+header ul li a.active {
+	color : #000;
+}
+section {
+	background-image: url('../images/slider.png');
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 200px 0px;
+}
+section div.calendar {
+	background-color: #080F18;
+	width: 300px;
+	margin: 0px auto;
+	height: 300px;
+	text-align: center;
+	padding: 30px 0px;
+	border : 2px solid #AA9A72;
+
+}
+section div.calendar p{
+	color : #AA9A72;
+}
+section div.calendar p.number {
+	font-size: 5em;
+	padding: 10px 0px;
+	color: white;
+	font-weight: bold;
+}
+section div.calendar p.open {
+	font-size: 1.5em;
+	color : #AA9A72;
+}
+main.about{
+	background-color: #06101B;
+	width: 100%;
+	height: 700px;
+	text-align: center;
+}
+main.about p.about {
+	color : #AA9A72;
+	padding: 100px 0px 10px 0px;
+}
+main.about p.stt {
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 10px 0px;
+}
+main.about div.caption {
+	width: 400px;
+	margin: auto;
+}
+main.about div.caption p {
+	color : #AA9A72;
+}
+main.about div.arrow {
+	padding: 40px 0px;
+}
+main.beer{
+	background-color: #06101B;
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+main.beer div.beer {
+	width: 55%;
+	padding: 0px 0px 40px 0px;
+}
+main.beer div.indu p.happy{
+	color :#AA9A72;
+	padding: 0px 0px 20px 0px;
+
+}
+main.beer div.indu p.beer{
+	color : white;
+	font-size : 2em;
+	font-weight: bold;
+}
+main.beer div.indu div.stt{
+	width: 400px;
+}
+main.beer div.indu div.stt p {
+	color :#AA9A72;
+	padding: 140px 0px 0px 0px;
+	font-size: 1.4em;
+}
+main.music {
+	background-color: #06101B;
+	width: 100%;
+	height: 700px;
+}
+main.music div.music {
+	display: flex;
+
+}
+main.music div.music div.cap {
+	width: 65%;
+}
+main.music div.music div.cap div.nextshow{
+	padding: 20px 0px 0px 120px;
+}
+main.music div.music div.cap div.nextshow p.music {
+	color :#AA9A72;
+	font-size: 1.3em;
+}
+main.music div.music div.cap div.nextshow p.next {
+	color : white;
+	padding: 10px 0px;
+	font-size: 2em;
+	font-weight: bold;
+}
+main.music div.music div.cap div.nextshow div.indu {
+	width: 500px;
+}
+main.music div.music div.cap div.nextshow div.indu p{
+	color: #AA9A72;
+	font-size: 1.3em;
+}
+main.banan {
+	background-image: url('../images/banan.png');
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 700px;
+	padding: 100px 0px;
+}
+main.contact {
+	background-color: #06101B;
+	width: 100%;
+	height: 600px;
+}
+main.contact div.contact {
+	display: flex;
+	
+}
+main.contact div.contact div.cap p.cap {
+	color :white;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+main.contact div.contact  {
+	padding: 100px 0px 0px 120px;
+}
+main.contact div.contact div.cap {
+	width: 50%;
+}
+main.contact div.contact div.cap div.stt {
+	width: 300px;
+	padding: 100px 0px;
+}
+main.contact div.contact div.cap div.stt p {
+	color :#AA9A72;
+	font-size: 1.2em;
+}
+main.contact div.contact div.info p {
+	color: #AA9A72;
+	font-size: 1.2em;
+}
+main.contact div.contact div.info {
+	padding: 50px 0px;
+}
+main.contact div.contact div.info input,select {
+	display: block;
+	width: 300px;
+	height: 40px;
+	margin: 20px 0px;
+	background-color: transparent;
+	background: none;
+	color : white;
+	text-transform: uppercase;
+}
+select {
+	width: 305px;
+	border : 2px solid white;
+	color: white;
+
+}
+button#book {
+	background-color: #AA9A72;
+	display: block;
+	width: 300px;
+	height: 40px;
+	margin: 20px 0px;
+	color : white;
+	text-transform: uppercase;
+	border : none;
+	
+}
+
+main.map {
+	background-image: url('../images/map.png');
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+}
+footer {
+	background-color: #06101B;
+	height: 300px;
+}
+footer div.wrap {
+	display: flex;
+	padding: 100px 0px 0px 120px;
+}
+footer div.wrap div.ct{
+	width: 70%;
+}
+footer div.wrap div.ct p {
+	color : white;
+	font-size: 1.2em;
+}
+footer input {
+	width: 400px;
+	color: white;
+	border: none;
+	height: 40px;
+}
+::placeholder {
+	padding: 10px 20px;
+	color :#AA9A72;
+}
+footer button {
+	background-color: #AA9A72;
+	width: 200px;
+	height: 40px;
+	color : yellow;
+	border : none;
+}
+/*footer div.mxh {
+	padding: 0px 0px 0px 320px;
+}*/
+footer div.mxh i {
+	color : white;
+	padding: 0px 5px;
+}
+footer div.mxh p {
+	color :#AA9A72;
+	font-size: 20px;
+	padding: 10px 0px;
+}

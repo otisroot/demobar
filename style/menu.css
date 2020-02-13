@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #06101B;
+	
+}
+header {
+	background: #06101B;
+	height: 60px;
+	text-align: center;
+	padding: 10px 0px;
+	position: fixed;
+	width: 100%;
+	top : 0;
+
+}
+header div.menu {
+	background: #EEE8D8;
+	border-radius: 30px;
+	width: 70%;
+	margin:  auto;
+	padding: 10px 0px;
+	height: 40px;
+}
+header ul li {
+	display: inline-block;
+	width: 140px;
+	line-height: 40px;
+}
+header ul li a {
+	text-decoration: none;
+	color : gray;
+}
+header ul li a.active {
+	color : #000;
+}
+section {
+	margin: 150px 50px;
+}
+section div.wrap {
+	width: 1200px;
+}
+section div.wrap p.drinks {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 10px 0px ;
+}
+section div.wrap p {
+	color : white;
+}
+section div.wrap p.section {
+	color :#AA9A72;
+	padding: 20px 0px;
+}
+
+section ul li {
+	
+	list-style-type: none;
+	display: flex;
+	margin-bottom: 40px;
+}
+h4 {
+	font-size: 14px;
+	padding: 20px 0px;
+	color : white;
+}
+
+section img {
+	padding: 0px 20px 0px 0px;
+}
+footer {
+	height: 150px;
+}
+footer div.wrap {
+	display: flex;
+	padding: 0px 0px 0px 120px;
+}
+footer div.wrap div.ct{
+	width: 70%;
+}
+footer div.wrap div.ct p {
+	color : white;
+	font-size: 1.2em;
+}
+footer input {
+	width: 400px;
+	color: white;
+	border: none;
+	height: 40px;
+}
+::placeholder {
+	padding: 10px 20px;
+	color :#AA9A72;
+}
+footer button {
+	background-color: #AA9A72;
+	width: 200px;
+	height: 40px;
+	color : yellow;
+	border : none;
+}
+/*footer div.mxh {
+	padding: 0px 0px 0px 320px;
+}*/
+footer div.mxh i {
+	color : white;
+	padding: 0px 5px;
+}
+footer div.mxh p {
+	color :#AA9A72;
+	font-size: 20px;
+	padding: 10px 0px;
+}
