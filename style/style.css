@@ -22,7 +22,7 @@ header div.menu {
 }
 header ul li {
 	display: inline-block;
-	width: 100px;
+	width:10%;
 	line-height: 40px;
 }
 header ul li a {
