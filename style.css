@@ -1,0 +1,28 @@
+header {
+	background: #031035;
+	width : 100%;
+	height: 60px;
+	padding: 10px 0px;
+	
+}
+header div#menu {
+	width: 70%;
+	margin: auto;
+	background-color: #9B7E09;
+	height: 40px;
+	border-radius: 30px;
+}
+header div#menu ul {
+	text-align: center;
+}
+header div#menu ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 40px;
+	width: 15%;
+	cursor: pointer;
+}
+header div#menu ul li a {
+	text-decoration: none;
+	color : cyan;
+}

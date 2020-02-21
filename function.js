@@ -6,7 +6,7 @@
 
             _cousin_id = "Developer";
 
-            _gutter = 20;
+            _gutter = 80;
 
             _writing_rate = 16;
 
